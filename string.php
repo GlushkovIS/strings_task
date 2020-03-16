@@ -34,7 +34,7 @@ foreach ($strArr as $key => $symbol) {
     }
     $previousSymbol = $symbol;
 }
-echo implode($strArr);
+echo implode('', $strArr);
 
 /**
  * Задание №3
@@ -53,7 +53,7 @@ foreach ($stringArr as $key => $sym) {
     $previousSym = $sym;
 }
 
-echo '<br>' . implode($stringArr);
+echo '<br>' . implode('', $stringArr);
 
 
 
